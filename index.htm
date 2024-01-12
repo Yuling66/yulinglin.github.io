@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+ <lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {box-sizing: border-box;}
+    body {
+        color: #a2909f;
+        font-size: 30px;
+        font-family: 'Source Code Pro', monospace;
+        background-color: #fffeff;
+        
+    }
+    body, h1, h2, h3, p ,ul {
+        margin: 0;
+        
+    }
+    .wrap {
+        width: 1900px;
+        margin-inline: auto;/*區塊左右置中*/
+        
+    }
+    section {
+        background-color: #f4e6ef;
+        height: 600px;
+        margin-top: 60px;/*間格距離*/
+        padding: 10px 20px;/*調整內邊距*/
+        border-radius: 0px;/*圓角*/
+        
+    }
+    
+    h2 {
+        color: #c567b4;
+        font-size: 40px;
+    
+    }
+    header {  
+        align-items: center;
+        padding:20px 0px;
+        background-color: rgb(247, 167, 234);
+        border-radius: 10px;
+        margin-top: 5px;
+        }
+         
+    header h1.logo {/*ok*/
+        font-weight: 500;
+       text-align: center;
+    }
+    header a {/*ok*/
+        color: black;
+        text-decoration: none;/*清除底線*/
+        display: block;
+       
+    }
+    .menu ul { /*ok*/
+        display: flex;/*橫排*/
+        gap: 30px;/*間格距離*/
+        list-style:none;
+    }
+    .menu a {/*ok*/
+        font-size: 20px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    .menu a:hover {/*ok*/
+        color: aliceblue;
+        background-color: #d5369b;
+    }
+    a.anchor {/*ok*/
+        position: relative;
+        top: -114px;
+       
+    }
+    footer{
+        text-align: center;
+        font-size: 20px;
+        line-height: 100px;
+        background-color: rgb(247, 167, 234);
+        margin-top: 30px;
+        font-size: 20px;
+        color: black;
+        width: 1900px;
+        margin-inline: auto;
+    }
+    main{
+        text-align: center;
+        
+       
+       
+    }
+
+    
+</style>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <h1 class="logo">
+           <a href="#">Sketch Portfolio</a>
+        </h1>
+        
+        <nav class="menu">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Portfolio 2">Portfolio 2</a></li>
+            
+        </ul>
+        </nav>
+    </header>
+
+    <a class="anchor" id="about"></a>
+    <section>
+        <h2>About</h2>
+        <p>Currently enrolled at Taiwan University of Arts, this institution not only provides rich artistic resources but also allows me the opportunity to grow alongside classmates from diverse backgrounds. In this creatively stimulating environment, I continuously challenge myself, broaden my horizons, and explore various art forms.
+
+            My artistic style is influenced by a variety of sources, ranging from modern art to traditional techniques. I enjoy integrating different elements into my work, creating pieces that are unique and expressive. My goal is to convey emotions through art, inspire contemplation in the audience, and find resonance in the world of art.
+            
+            Thank you for taking the time to read my introduction. I look forward to sharing experiences with more art enthusiasts and exploring the vast ocean of art together. If you have any questions or collaboration opportunities, feel free to contact me anytime!</p>    
+    </section>
+
+    <a class="anchor" id="Portfolio"></a>
+    <section>
+        <h2>Portfolio</h2>
+
+    <main>
+        <img src="image/1.jpg" width="350px">
+        <img src="image/2.jpg" width="350px">
+        <img src="image/1.jpg" width="350px">
+        <img src="image/2.jpg" width="350px">
+    </main>
+    </section>
+
+
+
+    <a class="anchor" id="Portfolio 2"></a>
+    <section>
+        <h2>Portfolio 2</h2>  
+        <main>
+            <img src="image/3.jpg" width="390px">
+            <img src="image/4.jpg" width="390px">
+            <img src="image/3.jpg" width="390px">
+            <img src="image/4.jpg" width="390px">
+        </main>
+        
+    </section>
+   
+</div>
+</body>
+
+        <footer>
+        <p> rjyl05418@gmail.com</p>
+        <img src="image/66.png" width="90px" >
+        </footer>
+    
+</html>
